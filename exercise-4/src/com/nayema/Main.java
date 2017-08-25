@@ -9,8 +9,8 @@ public class Main {
         for (int a : numbers) {
             sum += a;
         }
-
         int average = sum / numbers.length;
+
         System.out.println("The Average of the values is: " + average);
     }
 }

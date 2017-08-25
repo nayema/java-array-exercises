@@ -12,9 +12,9 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        int[] array1 = {2001, 2002, 2003, 2004, 2005, 2006};
+        int[] intArray = {2001, 2002, 2003, 2004, 2005, 2006};
 
-        System.out.println(contains(array1, 2003));
-        System.out.println(contains(array1, 2008));
+        System.out.println(contains(intArray, 2003));
+        System.out.println(contains(intArray, 2008));
     }
 }

@@ -14,9 +14,9 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        int[] array1 = {1,2,3,4,5,6,7,8,9};
+        int[] intArray = {1,2,3,4,5,6,7,8,9};
 
-        System.out.println(findIndex(array1, 3));
-        System.out.println(findIndex(array1, 70));
+        System.out.println(findIndex(intArray, 3));
+        System.out.println(findIndex(intArray, 70));
     }
 }

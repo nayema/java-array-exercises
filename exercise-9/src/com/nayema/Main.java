@@ -8,13 +8,20 @@ public class Main {
         System.out.print("Array: ");
         printArray(intArray);
         System.out.println();
+
+        BubbleSort sort = new BubbleSort();
+        System.out.print("Sorted Array: ");
+        sort.sortArray(intArray);
+        sort.printSortedArray(intArray);
+        System.out.println();
+
         System.out.println("Minimum: " + printMin(intArray));
         System.out.println("Maximum: " + printMax(intArray));
     }
 
-    private static void printArray(int[] intArray) {
-        for (int i = 0; i < intArray.length; i++) {
-            System.out.print(intArray[i] + " ");
+    private static void printArray(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i] + " ");
         }
     }
 

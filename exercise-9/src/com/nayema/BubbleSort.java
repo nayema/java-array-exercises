@@ -18,8 +18,10 @@ public class BubbleSort {
     }
 
     public void printSortedArray(int[] array) {
+        System.out.print("Sorted Array: ");
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
         }
+        System.out.println();
     }
 }

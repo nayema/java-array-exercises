@@ -3,7 +3,10 @@ package com.nayema;
 public class Main {
 
     public static void main(String[] args) {
-        int[] intArray = {7, 2, 3, 4, 5, 6, 1, 8, 9, 10};
+        int[] intArray = new int[args.length];
+        for (int i = 0; i < args.length; i++) {
+            intArray[i] = Integer.parseInt(args[i]);
+        }
 
         printArray(intArray);
 
